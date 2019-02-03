@@ -18,21 +18,17 @@ namespace App13
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
-            base.Recreate();
+            base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.newItemDialog);
             // Create your application here
 
             EditText name = FindViewById<EditText>(Resource.Id.itemName);
             Button submit = FindViewById<Button>(Resource.Id.submit);
-            DatePicker dateBought = FindViewById<DatePicker>(Resource.Id.buyDate);
-            NumberPicker quantity = FindViewById<NumberPicker>(Resource.Id.quantity);
+            EditText dateBought = FindViewById<EditText>(Resource.Id.buyDate);
 
             submit.Click += (o,e) =>
             {
-                if(quantity.Value != 0 && name.Text != "")
-                {
-                    return;                           
-                }
+
             };
 
         }

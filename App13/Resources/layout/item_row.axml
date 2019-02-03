@@ -21,35 +21,21 @@
             android:layout_width="200dp" 
             android:layout_height="match_parent" 
             android:id="@+id/image" />
-        
-        <LinearLayout 
-            android:layout_width="match_parent" 
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_toRightOf="@id/image">
-            
-            <TextView 
-                android:text="mucho foods" 
-                android:id="@+id/CardTitle" 
-                android:layout_width="wrap_content" 
-                android:layout_height="wrap_content" 
-                android:layout_toRightOf="@id/image" />
-            
-            <TextView 
-                android:text="Large Text" 
-                android:textAppearance="?android:attr/textAppearanceLarge" 
-                android:layout_width="match_parent" 
-                android:layout_height="match_parent" 
-                android:layout_toRightOf="@id/image" 
-                android:id="@+id/CardSubtitle" />
-            
-            <TextView 
-                android:text="Medium Text" 
-                android:textAppearance="?android:attr/textAppearanceMedium" 
-                android:layout_width="match_parent" 
-                android:layout_height="match_parent" 
-                android:layout_toRightOf="@id/image" 
-                android:id="@+id/Sub" />
-            
+            <TextView
+                android:text="mucho foods"
+                android:id="@+id/CardTitle"
+                android:gravity="bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="ding done"
+                android:id="@+id/Expr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
         </LinearLayout>
     </RelativeLayout>
 </android.support.v7.widget.CardView>

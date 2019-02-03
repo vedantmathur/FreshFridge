@@ -1,14 +1,12 @@
 ﻿<Properties StartupConfiguration="{52381C0D-EAAA-42D6-BAE9-66657B9E0A21}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="App13/Resources/Resource.designer.cs">
     <Files>
-      <File FileName="App13/Resources/values/styles.xml" Line="6" Column="16" />
-      <File FileName="App13/Resources/values/colors.xml" Line="6" Column="13" />
-      <File FileName="App13/Resources/values/strings.xml" Line="1" Column="1" />
-      <File FileName="App13/MainActivity.cs" Line="98" Column="33" />
-      <File FileName="App13/LiveStream.cs" Line="19" Column="60" />
+      <File FileName="App13/MainActivity.cs" Line="82" Column="105" />
+      <File FileName="App13/DatePickActivity.cs" Line="31" Column="1" />
+      <File FileName="App13/Resources/Resource.designer.cs" Line="2415" Column="21" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.App13 AndroidDesignerPreferredTheme="AppTheme" PreferredExecutionTarget="Android.ce0717179d83588f0c7e" />
+  <MonoDevelop.Ide.ItemProperties.App13 AndroidDesignerPreferredTheme="AppTheme" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.ce0717179d83588f0c7e" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

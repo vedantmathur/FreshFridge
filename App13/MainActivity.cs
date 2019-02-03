@@ -58,11 +58,11 @@ namespace App13
                 " outside and tender on the inside. Shake the pan from time to time to brown the sprouts evenly. Sprinkle with more kosher salt ( I like these salty like French fries), and serve immediately." }, 7));
 
 
-            //textMessage = FindViewById<TextView>(Resource.Id.message);
-            //card1 = FindViewById<CardView>(Resource.Id.cardView1);
-            //card2 = FindViewById<CardView>(Resource.Id.cardView2);
             BottomNavigationView navigation = FindViewById<BottomNavigationView>(Resource.Id.navigation);
             navigation.SetOnNavigationItemSelectedListener(this);
+
+            FloatingActionButton add = FindViewById<FloatingActionButton>(Resource.Id.addItem);
+            add.Click += (sender, e) => { StartActivity(typeof(DatePickActivity)); };
         }
 
 
