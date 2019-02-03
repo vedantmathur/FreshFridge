@@ -79,8 +79,7 @@ namespace App13
                         foodTitles.Add(entry.name);
                     }
                     adapter = new ArrayAdapter<string>(this, Resource.Layout.item_row, Resource.Id.CardTitle, foodTitles);
-                    listView.SetAdapter(adapter);
-                    //listView.Adapter = adapter;
+                    listView.Adapter = adapter;
                     return true;
 
                 case Resource.Id.navigation_dashboard:
@@ -91,7 +90,7 @@ namespace App13
                     }
 
                     adapter = new ArrayAdapter<string>(this, Resource.Layout.item_row, Resource.Id.CardTitle, recipeTitles);
-                    listView.SetAdapter(adapter);
+                    listView.Adapter = adapter;
                     return true;
                 case Resource.Id.navigation_notifications:
                     return true;
