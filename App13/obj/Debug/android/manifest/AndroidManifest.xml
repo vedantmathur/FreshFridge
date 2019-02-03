@@ -10,6 +10,8 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <activity android:label="DatePickActivity" android:name="md525304ff52096201749995617edc3e2cc.DatePickActivity" />
+    <activity android:label="LiveStream" android:name="md5155405deaa24f126ec5331af20abf42f.LiveStream" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="App13.App13.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">

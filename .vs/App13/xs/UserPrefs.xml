@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{52381C0D-EAAA-42D6-BAE9-66657B9E0A21}|Default">
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="App13/MainActivity.cs" Line="34" Column="49" />
+      <File FileName="App13/MainActivity.cs" Line="23" Column="50" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.App13 AndroidDesignerPreferredTheme="AppTheme" AndroidDesignerPreferredDevice="pixel_xl" PreferredExecutionTarget="Android.27cb695545217ece" />
+  <MonoDevelop.Ide.ItemProperties.App13 AndroidDesignerPreferredTheme="AppTheme" AndroidDesignerPreferredDevice="pixel_xl" PreferredExecutionTarget="Android.ce0717179d83588f0c7e" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
