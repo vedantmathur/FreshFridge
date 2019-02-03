@@ -43,7 +43,6 @@
 /Users/vedantmathur/Documents/Code/App13/App13/obj/Debug/R.cs.flag
 /Users/vedantmathur/Documents/Code/App13/App13/obj/Debug/R.txt
 /Users/vedantmathur/Documents/Code/App13/App13/obj/Debug/uploadflags.txt
-/Users/vedantmathur/Documents/Code/App13/App13/obj/Debug/App13.csprojAssemblyReference.cache
 /Users/vedantmathur/Documents/Code/App13/App13/bin/Debug/Mono.Android.pdb
 /Users/vedantmathur/Documents/Code/App13/App13/obj/Debug/linksrc/App13.pdb
 /Users/vedantmathur/Documents/Code/App13/App13/obj/Debug/linksrc/Mono.Android.pdb
