@@ -6,6 +6,7 @@ using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
 using App13.Resources;
+using App13.Resources.layout;
 
 namespace App13
 {
@@ -82,7 +83,7 @@ namespace App13
                     listView.Adapter = adapter;
                     return true;
 
-                case Resource.Id.navigation_dashboard:
+                case Resource.Id.navigation_notifications:
                     List<string> recipeTitles = new List<string>();
                     foreach (var entry in recipeInPantry)
                     {
@@ -92,7 +93,8 @@ namespace App13
                     adapter = new ArrayAdapter<string>(this, Resource.Layout.item_row, Resource.Id.CardTitle, recipeTitles);
                     listView.Adapter = adapter;
                     return true;
-                case Resource.Id.navigation_notifications:
+                case Resource.Id.navigation_dashboard:
+                    StartActivity(typeof(LiveStream));
                     return true;
             }
             return false;
